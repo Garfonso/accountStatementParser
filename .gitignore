@@ -141,3 +141,4 @@ node_modules/
 
 # webstorm:
 .idea/
+src/config.json
