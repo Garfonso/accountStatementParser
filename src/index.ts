@@ -1,8 +1,5 @@
 'use strict';
 
-import { Logger } from 'sitka';
-import { readFile } from 'node:fs/promises';
-import { Config } from './lib/Config';
 import {Logger, LogLevel} from 'sitka';
 import {Config} from './lib/Config';
 import {readDirecotry} from './parsers/ParserMethods';
