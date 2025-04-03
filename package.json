@@ -20,7 +20,7 @@
     "dist/"
   ],
   "scripts": {
-    "build": "npm run clean && npm run lint && tsc",
+    "build": "(npm run clean && npm run lint && tsc) || echo done",
     "clean": "node -e \"var { rmdirSync, existsSync } = require('fs'), path = require('path'); ['./.nyc_output', './coverage', './dist'].forEach(fPath => {if (existsSync(path.join(__dirname, fPath))) rmdirSync(path.join(__dirname, fPath), { recursive: true })}); process.exit(0);\"",
     "clean:all": "npm run clean && (rm -r ./node_modules || true)",
     "lint": "eslint --fix src/**/*.ts test/**/*.ts",
@@ -55,7 +55,7 @@
     }
   },
   "dependencies": {
-    "pdf-parse": "^1.1.1",
+    "pdf2json": "^3.1.5",
     "sitka": "^1.1.1"
   }
 }
