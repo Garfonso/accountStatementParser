@@ -55,7 +55,7 @@
     }
   },
   "dependencies": {
-    "pdf2json": "^3.1.5",
+    "pdf2json": "^3.1.6",
     "sitka": "^1.1.1"
   }
 }
