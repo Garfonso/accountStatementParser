@@ -40,7 +40,7 @@
     "@typescript-eslint/eslint-plugin": "^8.41.0",
     "@typescript-eslint/parser": "^8.38.0",
     "chai": "^5.2.1",
-    "eslint": "^9.32.0",
+    "eslint": "^9.34.0",
     "globals": "^15.14.0",
     "mocha": "^10.8.2",
     "nodemon": "^3.1.10",
