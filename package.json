@@ -42,7 +42,7 @@
     "chai": "^5.2.1",
     "eslint": "^9.39.0",
     "globals": "^15.14.0",
-    "mocha": "^10.8.2",
+    "mocha": "^11.7.4",
     "nodemon": "^3.1.10",
     "source-map-support": "^0.5.21",
     "ts-node": "^10.9.2",
